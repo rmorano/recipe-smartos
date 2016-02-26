@@ -1,0 +1,17 @@
+{
+  "alias": "CentOS7",
+  "brand": "lx",
+  "kernel_version": "3.10.0",
+  "max_physical_memory": 2048,
+  "image_uuid": "d1c80032-83d2-11e5-b89f-c317cd0ed1fd",
+  "resolvers": ["8.8.8.8","8.8.4.4"],
+  "nics": [
+    {
+      "nic_tag": "switch0",
+      "ip": "10.0.0.2",
+      "netmask": "255.255.255.0",
+      "gateway": "10.0.0.1",
+      "primary": true
+    }
+  ]
+}

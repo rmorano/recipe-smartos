@@ -1,0 +1,28 @@
+{
+	"brand": "kvm",
+	"vcpus": 1,
+	"autoboot": false,
+	"ram": 2048,
+	"alias": "windows2012r2",
+	"resolvers": [
+	"8.8.4.4",
+	"8.8.8.8"
+	],
+	"disks": [
+	{
+	 "boot": true,
+	 "model": "ide",
+	 "size": 40960 
+	}
+	],
+	 "nics": [
+	{
+	 "nic_tag": "switch0",
+	 "model": "e1000",
+	 "ip": "10.0.0.3",
+	 "netmask": "255.255.255.0",
+	 "gateway": "10.0.0.1",
+	 "primary": 1
+	 }
+	]
+ }
