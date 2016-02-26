@@ -1,0 +1,11 @@
+{
+ "add_nics":[
+	{
+    	"interface": "net3",
+    	"nic_tag": "admin",
+    	"ip": "10.0.1.101",
+    	"netmask": "255.255.255.0",
+    	"allow_ip_spoofing": "1"
+  	}
+      ]
+}
