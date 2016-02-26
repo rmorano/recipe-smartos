@@ -1,0 +1,12 @@
+{
+ "update_nics":[
+	{
+    	"interface": "net0",
+    	"nic_tag": "switch0,
+    	"ip": "10.0.1.50",
+    	"gateway": "10.0.1.100",
+    	"netmask": "255.255.255.0",
+        "mac" :"b2:11:92:f8:49:94"
+  	}
+      ]
+}
